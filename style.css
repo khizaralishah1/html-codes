@@ -1,0 +1,56 @@
+.container
+{
+    width: 100% !important;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+.row 
+{
+    width: 100%;
+}
+
+#left
+{
+    margin-top: -10px;
+    width: 48%;
+}
+
+#right
+{
+    margin-top: -10px;
+    width: 48%;
+}
+
+@keyframes mymove {
+    0% {height: 100%;}
+    100% {height: 1%;}
+}
+
+#bar
+{
+    height: 680px !important;
+    width: 4%;
+    background-color: red;
+    padding: 0;
+}
+
+#inbar
+{   
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    height: 20px;
+    animation-name: mymove;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+}
+
+embed 
+{
+    width: 100%;
+}
